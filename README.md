@@ -46,6 +46,17 @@ Press <kbd>⌃</kbd> + <kbd>X</kbd> followed by <kbd>Y</kbd> to save and
 Exit the terminal and reopen it. Launch GanttProject by using the following
 command `ganttproject`.
 
+### Exporting the gantt chart
+Follow the following steps in order to produce the proper chart.
+
+1. Export the chart as HTML report. Set the theme as `Samara`. Set the file name
+and the path to `docs/index.html`.
+2. Export the chart as a raster image file. Set the file format to `PNG`. Set
+the file name and the path to `docs/index.png`. Set the start date to the
+beginning of the working week of the actual start date and the end date as the
+end of the working week for the actual end date of the project.
+3. Commit and push.
+
 [GanttProject]: https://github.com/bardsoftware/ganttproject
 [java-d]: https://www.oracle.com/technetwork/java/javase/downloads/index.html
 [gp-d]: https://github.com/bardsoftware/ganttproject/releases
