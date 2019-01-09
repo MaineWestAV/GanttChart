@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Autonomous Vehicle" company="Maine West High School" webLink="https://mainewestav.github.io/GanttChart/" view-date="2018-10-21" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Autonomous Vehicle" company="Maine West High School" webLink="https://mainewestav.github.io/GanttChart/" view-date="2018-12-23" view-index="0" gantt-divider-location="427" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description>
         <![CDATA[The project timeline for Maine West High School's Autonomous Vehicle Team.]]>
     </description>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="166" order="0"/>
-        <field id="tpd4" name="Begin date" width="64" order="1"/>
-        <field id="tpd5" name="End date" width="64" order="2"/>
+        <field id="tpd3" name="Name" width="208" order="0"/>
+        <field id="tpd4" name="Begin date" width="107" order="1"/>
+        <field id="tpd5" name="End date" width="106" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="209" order="0"/>
@@ -386,11 +386,11 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Brainstorming" color="#8cb6ce" meeting="false" start="2018-10-24" duration="33" complete="100" thirdDate="2018-10-24" thirdDate-constraint="0" expand="true"/>
-        <task id="1" name="Track Construction" meeting="false" start="2018-12-10" duration="30" complete="0" expand="true"/>
-        <task id="2" name="Vehicle Construction" meeting="false" start="2018-12-10" duration="30" complete="0" expand="true"/>
-        <task id="4" name="Initial Programming" meeting="false" start="2019-01-07" duration="21" complete="0" expand="true"/>
-        <task id="5" name="Testing" meeting="false" start="2019-02-04" duration="59" complete="0" expand="true"/>
+        <task id="0" name="Brainstorming" color="#8cb6ce" meeting="false" start="2018-10-24" duration="43" complete="100" thirdDate="2018-10-24" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Track Construction" color="#8cb6ce" meeting="false" start="2018-12-08" duration="42" complete="0" thirdDate="2018-12-10" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Vehicle Construction" color="#8cb6ce" meeting="false" start="2018-12-08" duration="42" complete="0" thirdDate="2018-12-10" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Initial Programming" color="#8cb6ce" meeting="false" start="2019-01-07" duration="29" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Testing" color="#8cb6ce" meeting="false" start="2019-02-04" duration="59" complete="0" thirdDate="2019-02-04" thirdDate-constraint="0" expand="true"/>
         <task id="6" name="Revisions" meeting="false" start="2019-02-04" duration="59" complete="0" expand="true"/>
     </tasks>
     <resources/>
